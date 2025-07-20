@@ -1,0 +1,9 @@
+gradio>=3.0.0
+joblib
+scikit-image
+pillow
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn 
