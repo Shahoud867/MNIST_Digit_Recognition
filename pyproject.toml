@@ -40,7 +40,7 @@ dev = [
     "pytest-cov>=5.0,<6.0",
     "ruff>=0.4,<1.0",
     "black>=24.3,<25.0",
-    "pre-commit>=3.7,<4.0",
+    "pre-commit>=3.7,<5.0",
     "nbstripout>=0.7,<0.8",
     "pip-audit>=2.7,<3.0",
 ]
