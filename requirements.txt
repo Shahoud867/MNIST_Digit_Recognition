@@ -1,9 +1,14 @@
-gradio>=3.0.0
-joblib
-scikit-image
-pillow
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn 
+# Runtime dependencies, pinned to exact versions for reproducible installs.
+# To upgrade deliberately: bump a version here, run `pip install -r requirements.txt`,
+# run the full test suite, then commit. Dependabot (see .github/dependabot.yml)
+# will also open PRs for updates automatically.
+scikit-learn==1.7.2
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+seaborn==0.13.2
+scikit-image==0.23.2
+pillow==12.3.0
+joblib==1.4.0
+huggingface-hub==1.25.1
+gradio==6.20.0
